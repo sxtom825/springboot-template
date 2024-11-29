@@ -1,4 +1,4 @@
-package com.example.demo.util;
+package com.example.demo.jdk17.util;
 
  public record  Test1(Integer id,String name,String email,Integer age){
 
