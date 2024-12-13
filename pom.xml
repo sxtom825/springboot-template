@@ -9,10 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>springboot-template</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>demo</description>
+    <packaging>pom</packaging>
+    <name>springboot-template</name>
+    <description>springboot-template</description>
 
     <properties>
         <java.version>17</java.version>
@@ -72,11 +73,12 @@
         <logback.version>1.2.9</logback.version>
     </properties>
 
-<!--    <modules>-->
-<!--        <module>jeecg-boot-base-core</module>-->
-<!--        <module>jeecg-module-demo</module>-->
-<!--        <module>jeecg-module-system</module>-->
-<!--    </modules>-->
+    <modules>
+<!--        <module>jdk17</module>-->
+
+        <module>jdk17</module>
+        <module>spring</module>
+    </modules>
 
 
     <dependencies>
